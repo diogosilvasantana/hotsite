@@ -40,46 +40,51 @@
         }
     </script>
 
-
-
-
 </head>
 <body>
 
-<!-- TOPO DO SITE -->
-<header>
-    <section class="home" id="home">
-        <strong>Home</strong>
-    </section>
-</header>
 
-<!-- NAVEGAÇÃO -->
-<nav class="menu">
-    <div class="logo-menu">
-        <img src="itens/imagens/logo-menu.png" />
+<header>
+
+    <!-- NAVEGAÇÃO -->
+
+
+    <input type="checkbox" id="check">
+    <label id="menu-icone" for="check"><img class="img-default" src="itens/imagens/menu-icone.png" class="imagem-menu" width="25" height="25"></label>
+    <label id="menu-icone2" for="check"><img class="img-checked" src="itens/imagens/menu-fechar.png" class="imagem-menu" width="25" height="25"></label>
+    <div class="barra">
+        <div class="logo-menu">
+            <img src="itens/imagens/logo-menu.png" />
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#release">Release</a></li>
+                <li><a href="#redessociais">Redes Sociais</a></li>
+                <li><a href="#musicas">Músicas</a></li>
+                <li><a href="#contato">Contato</a></li>
+
+            </ul>
+        </nav>
+        <div class="social-icones">
+            <ul>
+                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
+                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li><i class="fa fa-spotify" aria-hidden="true"></i></li>
+
+            </ul>
+        </div>
     </div>
 
-    <ul>
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#agenda">AGENDA</a></li>
-        <li><a href="#release">RELEASE</a></li>
-        <li><a href="#redessociais">REDES SOCIAIS</a></li>
-        <li><a href="#musicas">MÚSICAS</a></li>
-        <li><a href="#contato">CONTATO</a></li>
-    </ul>
 
-</nav>
 
-<nav class="social-icones">
-    <ul>
-        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-        <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-        <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
-        <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-        <li><i class="fa fa-spotify" aria-hidden="true"></i></li>
 
-    </ul>
-</nav>
+
+
+</header>
 
 <!-- CONTEÚDO -->
 <article>
@@ -116,6 +121,8 @@
 </article>
 <!-- RODAPÉ -->
 <footer class="footer">
+
+    <h4>Diogo Silva - Todos os Direitos Reservados.</h4>
 
 </footer>
 
