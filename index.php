@@ -15,12 +15,21 @@
     <link rel="stylesheet" href="itens/css/estilos.css" />
     <link rel="stylesheet" href="itens/css/font-awesome/css/font-awesome.css" />
     <link rel="stylesheet" href="itens/css/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="itens/css/jquery.mCustomScrollbar.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
+    <!-- Css Carousel -->
 
-    <!-- Scripts & Bibliotecas -->
+    <link rel="stylesheet" href="itens/funcoes/carousel/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="itens/funcoes/carousel/assets/owlcarousel/assets/owl.theme.default.min.css">
+
+    <!-- Javascript -->
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script src="itens/js/scroll_ancora.js"></script>
+    <script src="itens/funcoes/carousel/assets/vendors/jquerynovo.min.js"></script>
+    <script src="itens/funcoes/carousel/assets/owlcarousel/owl.carousel.js"></script>
+    <script src="itens/js/jquery.mCustomScrollbar.js"></script>
 
     <!-- Schema -->
     <script type="application/ld+json">
@@ -69,7 +78,7 @@
         </nav>
         <div class="social-icones">
             <ul>
-                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                <li><a href="http://www.facebook.com/cantordiogosilva"></a><i class="fa fa-facebook" aria-hidden="true"></i></li>
                 <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
                 <li><i class="fa fa-youtube" aria-hidden="true"></i></li>
                 <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
@@ -97,16 +106,168 @@
     <!-- AGENDA -->
     <section class="agenda" id="agenda">
         <strong>Agenda</strong>
+        <!-- AGENDA -->
+        <div class="agenda-coluna">
+            <div class="">
+                  <div class="owl-carousel owl-theme">
+                    <div class="agenda-item">
+                        <div class="data-agenda">
+                            <strong class="dia">02</strong><br/>
+                            <strong class="mes">Julho</strong><br/>
+                            <strong class="cidade">São Paulo - SP</strong><br/>
+                            <strong class="local"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Heliponto</strong>
+                        </div>
+                    </div>
+                    <div class="agenda-item">
+                        <div class="data-agenda">
+                            <strong class="dia">23</strong><br/>
+                            <strong class="mes">Julho</strong><br/>
+                            <strong class="cidade">Barueri - SP</strong><br/>
+                            <strong class="local"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Absurdo</strong>
+                        </div>
+                    </div>
+                    <div class="agenda-item">
+                        <div class="data-agenda">
+                            <strong class="dia">02</strong><br/>
+                            <strong class="mes">Julho</strong><br/>
+                            <strong class="cidade">São Paulo - SP</strong><br/>
+                            <strong class="local"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Heliponto</strong>
+                        </div>
+                    </div>
+                    <div class="agenda-item">
+                        <div class="data-agenda">
+                            <strong class="dia">02</strong><br/>
+                            <strong class="mes">Julho</strong><br/>
+                            <strong class="cidade">São Paulo - SP</strong><br/>
+                            <strong class="local"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Heliponto</strong>
+                        </div>
+                    </div>
+                    <div class="agenda-item">
+                        <div class="data-agenda">
+                            <strong class="dia">02</strong><br/>
+                            <strong class="mes">Julho</strong><br/>
+                            <strong class="cidade">São Paulo - SP</strong><br/>
+                            <strong class="local"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Heliponto</strong>
+                        </div>
+                    </div>
+                    <div class="agenda-item">
+                        <div class="data-agenda">
+                            <strong class="dia">02</strong><br/>
+                            <strong class="mes">Julho</strong><br/>
+                            <strong class="cidade">São Paulo - SP</strong><br/>
+                            <strong class="local"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Heliponto</strong>
+                        </div>
+                    </div>
+                    <div class="agenda-item">
+                        <div class="data-agenda">
+                            <strong class="dia">02</strong><br/>
+                            <strong class="mes">Julho</strong><br/>
+                            <strong class="cidade">São Paulo - SP</strong><br/>
+                            <strong class="local"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Heliponto</strong>
+                        </div>
+                    </div>
+                    <div class="agenda-item">
+                        <div class="data-agenda">
+                            <strong class="dia">02</strong><br/>
+                            <strong class="mes">Julho</strong><br/>
+                            <strong class="cidade">São Paulo - SP</strong><br/>
+                            <strong class="local"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Heliponto</strong>
+                        </div>
+                    </div>
+                    <div class="agenda-item">
+                        <div class="data-agenda">
+                            <strong class="dia">02</strong><br/>
+                            <strong class="mes">Julho</strong><br/>
+                            <strong class="cidade">São Paulo - SP</strong><br/>
+                            <strong class="local"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Heliponto</strong>
+                        </div>
+                    </div>
+                    <div class="agenda-item">
+                        <div class="data-agenda">
+                            <strong class="dia">29</strong><br/>
+                            <strong class="mes">Julho</strong><br/>
+                            <strong class="cidade">São Paulo - SP</strong><br/>
+                            <strong class="local"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Heliponto</strong>
+                        </div>
+                    </div>
+                    <div class="agenda-item">
+                        <div class="data-agenda">
+                            <strong class="dia">01</strong><br/>
+                            <strong class="mes">Agosto</strong><br/>
+                            <strong class="cidade">São Paulo - SP</strong><br/>
+                            <strong class="local"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Heliponto</strong>
+                        </div>
+                    </div>
+                    <div class="agenda-item">
+                        <div class="data-agenda">
+                            <strong class="dia">02</strong><br/>
+                            <strong class="mes">Agosto</strong><br/>
+                            <strong class="cidade">São Paulo - SP</strong><br/>
+                            <strong class="local"><i class="fa fa-map-marker" aria-hidden="true"></i>&ensp;Heliponto</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    jQuery(document).ready(function($) {
+                        var owl = $('.owl-carousel');
+                        owl.on('initialize.owl.carousel initialized.owl.carousel ' +
+                            'initialize.owl.carousel initialize.owl.carousel ' +
+                            'resize.owl.carousel resized.owl.carousel ' +
+                            'refresh.owl.carousel refreshed.owl.carousel ' +
+                            'update.owl.carousel updated.owl.carousel ' +
+                            'drag.owl.carousel dragged.owl.carousel ' +
+                            'translate.owl.carousel translated.owl.carousel ' +
+                            'to.owl.carousel changed.owl.carousel',
+                            function(e) {
+                                $('.' + e.type)
+                                    .removeClass('secondary')
+                                    .addClass('success');
+                                window.setTimeout(function() {
+                                    $('.' + e.type)
+                                        .removeClass('success')
+                                        .addClass('secondary');
+                                }, 500);
+                            });
+                        owl.owlCarousel({
+                            loop: true,
+                            nav: true,
+                            lazyLoad: true,
+                            margin: 10,
+                            video: true,
+                            responsive: {
+                                0: {
+                                    items: 1
+                                },
+                                600: {
+                                    items: 3
+                                },
+                                960: {
+                                    items: 5,
+                                },
+                                1200: {
+                                    items: 6
+                                }
+                            }
+                        });
+                    });
+                </script>
+            </div>
+        </div>
     </section>
 
     <!-- RELEASE -->
     <section class="release">
         <a id="release"><strong>Release</strong></a>
+
     </section>
 
     <!-- REDES SOCIAIS -->
     <section class="redessociais">
-        <a id="redessociais"><strong>Redes Sociais</strong></a>
+        <a id="redessociais"></a>
+        <!-- SnapWidget -->
+        <script src="https://snapwidget.com/js/snapwidget.js"></script>
+        <iframe src="https://snapwidget.com/embed/416547" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>
     </section>
 
     <!-- MÚSICAS -->
@@ -122,7 +283,9 @@
 <!-- RODAPÉ -->
 <footer class="footer">
 
-    <h4>Diogo Silva - Todos os Direitos Reservados.</h4>
+    <p>Diogo Silva - Todos os Direitos Reservados.</p>
+
+
 
 </footer>
 
